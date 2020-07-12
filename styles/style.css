@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -148,7 +152,6 @@
 }
 
 .table {
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -158,14 +161,12 @@
 }
 
 .table_theme_light {
+  margin: 0 auto;
   margin-bottom: 100px;
 }
 
 .table__cell_theme_light {
   margin-top: 60px;
-}
-
-.table__cell {
   width: 250px;
 }
 
@@ -239,12 +240,13 @@
 }
 
 .section-title_theme_dark {
-  padding-top: 90px;
+  margin-top: 90px;
   margin-bottom: 20px;
 }
 
 .table_theme_dark {
-  padding-bottom: 90px;
+  margin: 0 auto;
+  margin-bottom: 90px;
   z-index: 1;
 }
 
