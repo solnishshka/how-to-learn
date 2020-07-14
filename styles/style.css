@@ -28,6 +28,7 @@
   top: 30px;
   left: 64px;
   height: 32px;
+  z-index: 2;
 }
 
 .header__title {
@@ -36,6 +37,7 @@
   font-size: 102px;
   width: 730px;
   margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
