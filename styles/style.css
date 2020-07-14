@@ -176,16 +176,16 @@
   margin-bottom: 20px;
 }
 
-.table__text_theme_light {
-  margin-bottom: 20px;
-}
-
 .table__text {
   margin: 0;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.table__text_theme_light {
+  margin-bottom: 20px;
 }
 
 .feynman {
@@ -234,20 +234,26 @@
 
 .section-title_theme_dark {
   color: white;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .section-subtitle_theme_dark {
   color: white;
 }
 
-.section-title_theme_dark {
-  margin-top: 90px;
-  margin-bottom: 20px;
-}
-
 .table_theme_dark {
   margin: 0 auto;
   margin-bottom: 90px;
+  z-index: 1;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
   z-index: 1;
 }
 
@@ -260,15 +266,6 @@
   background-image: url("../images/kaufman-triangle.svg");
   background-repeat: no-repeat;
   background-size: 877px 877px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 1;
 }
 
 .footer {
@@ -341,5 +338,5 @@
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
-  height: 16px;;
+  height: 16px;
 }
