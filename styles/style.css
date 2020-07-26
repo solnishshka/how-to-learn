@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -9,7 +13,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
+/* .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -17,21 +21,21 @@
   position: relative;
   display: flex;
   align-items: center;
-}
+} */
 
-.logo {
+/*.logo {
   width: 183px;
-}
+}*/
 
-.logo_place_header {
+/*.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   height: 32px;
   z-index: 2;
-}
+} */
 
-.header__title {
+/*.header__title {
   line-height: 96px;
   font-weight: bold;
   font-size: 102px;
@@ -66,7 +70,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -74,15 +77,49 @@
   position: absolute;
   right: 0;
   top: 64px;
-}
+} */
 
-.description {
+/*.description {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}*/
+
+/*.cards {
+  display: grid;
+  grid-template-columns: 240px 240px 240px;
+  width: 920px;
+  margin: 0 auto;
+  column-gap: 100px;
 }
 
-.two-columns {
+.cards__item {
+  padding-top: 60px;
+}
+
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  margin: 0 40px;
+}
+
+.cards__title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+} */
+
+/*.two-columns {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -120,7 +157,7 @@
 
 .two-columns__span-accent {
   font-weight: bold;
-}
+}*/
 
 .digits {
   position: relative;
@@ -190,6 +227,20 @@
   margin-bottom: 20px;
 }
 
+.video__iframes {
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto -50px auto;
+}
+
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
+
 .feynman {
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
@@ -228,6 +279,76 @@
   color: #000000;
 }
 
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 36px;
+}
+
+.khan__quote-author {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  margin-top: 68px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
@@ -238,10 +359,14 @@
   color: white;
   margin-top: 90px;
   margin-bottom: 20px;
+  z-index: 1;
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .table_theme_dark {
@@ -268,6 +393,23 @@
   background-image: url("../images/kaufman-triangle.svg");
   background-repeat: no-repeat;
   background-size: 877px 877px;
+}
+
+.resources {
+  padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
 .footer {
