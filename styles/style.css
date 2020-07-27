@@ -4,12 +4,8 @@
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -159,25 +155,25 @@
   font-weight: bold;
 }*/
 
-.digits {
+/*.digits {
   position: relative;
-}
+}*/
 
-.section-title {
+/*.section-title {
   line-height: 69px;
   font-weight: bold;
   font-size: 60px;
   width: 60%;
   margin: 0 auto;
   text-align: center;
-}
+} */
 
-.section-title_theme_light {
+/*.section-title_theme_light {
   margin-top: 100px;
   margin-bottom: 20px;
-}
+}*/
 
-.section-subtitle {
+/*.section-subtitle {
   width: 60%;
   line-height: 34px;
   font-weight: normal;
@@ -199,12 +195,12 @@
 .table_theme_light {
   margin: 0 auto;
   margin-bottom: 100px;
-}
+} */
 
-.table__cell_theme_light {
+/*.table__cell_theme_light {
   margin-top: 60px;
   width: 250px;
-}
+} 
 
 .table__heading {
   margin: 0;
@@ -221,25 +217,25 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
+} 
 
 .table__text_theme_light {
   margin-bottom: 20px;
-}
+} 
 
 .video__iframes {
   width: 1050px;
   display: flex;
   justify-content: space-between;
   margin: 50px auto -50px auto;
-}
+} 
 
 .oakley {
   display: flex;
   justify-content: center;
   padding-top: 160px;
   background-color: #f2f2f2;
-}
+} 
 
 .feynman {
   background-image: url("../images/feynman.png");
@@ -250,7 +246,7 @@
   height: 790px;
   position: relative;
   padding-top: 100px;
-}
+} 
 
 .feynman__title {
   line-height: 1.15;
@@ -277,31 +273,31 @@
   font-weight: normal;
   text-decoration: none;
   color: #000000;
-}
+} 
 
 .khan {
   background-color: #f2f2f2;
   padding-top: 105px;
-}
+} 
 
 .khan__container {
   width: 80%;
   margin: 0 auto;
-}
+} 
 
 .khan__author {
   margin: 0;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-}
+} 
 
 .khan__title {
   margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-}
+} 
 
 .khan__quote {
   width: 790px;
@@ -311,7 +307,7 @@
   font-weight: normal;
   margin-top: 50px;
   margin-bottom: 36px;
-}
+} 
 
 .khan__quote-author {
   margin: 0;
@@ -319,27 +315,29 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-}
+} 
 
 .khan__quote-author-subline {
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
-}
+} 
 
 .khan__book-container {
   margin-top: 68px;
   display: flex;
   align-items: flex-start;
   position: relative;
-}
+} 
 
 .khan__book-pic {
   width: 620px;
   height: 608px;
   margin-right: 48px;
-}
+  object-fit: cover;
+  object-position: 0 0;
+} 
 
 .khan__buy-link {
   line-height: 42px;
@@ -347,7 +345,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-}
+} 
 
 .kaufman {
   background-color: #1f1f1f;
@@ -367,22 +365,21 @@
   color: white;
   position: relative;
   z-index: 1;
-}
+} 
 
 .table_theme_dark {
   margin: 0 auto;
   margin-bottom: 90px;
   z-index: 1;
-}
+} 
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
-}
+} 
 
 .kaufman__triangle {
   position: absolute;
@@ -393,7 +390,7 @@
   background-image: url("../images/kaufman-triangle.svg");
   background-repeat: no-repeat;
   background-size: 877px 877px;
-}
+} 
 
 .resources {
   padding-bottom: 217px;
@@ -447,14 +444,6 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {
-  list-style: none;
-}
-
-.footer__column_content_social {
-  list-style: none;
-}
-
 .footer__column-heading {
   margin: 0;
   padding: 0;
@@ -483,4 +472,4 @@
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
+} */
