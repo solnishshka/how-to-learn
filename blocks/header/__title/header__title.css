@@ -1,4 +1,5 @@
 .header__title {
+    margin: 0;
     line-height: 96px;
     font-weight: bold;
     font-size: 102px;
