@@ -4,7 +4,7 @@
     background-position: left bottom;
     background-size: 867px 637px;
     background-color: #f2f2f2;
-    height: 790px;
+    min-height: 790px;
     position: relative;
     padding-top: 80px;
   }
