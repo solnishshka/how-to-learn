@@ -4,6 +4,6 @@
   }
 
 .footer__links-content:hover {
-  opacity: 0.5;
-  transition: opacity .5s linear 0s;
-}
+    opacity: 0.5;
+    transition: opacity .5s linear 0s;
+  }
